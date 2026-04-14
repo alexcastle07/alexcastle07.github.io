@@ -1,0 +1,23 @@
+/* style.css — Bootstrap overrides for Alex Castillo's site */
+
+body {
+  font-family: Georgia, serif;
+  color: #222;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+.card {
+  border-radius: 6px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+footer {
+  font-size: 0.85rem;
+}
