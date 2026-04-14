@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Volleyball - Alex Castillo</title>
+  <link href="volleyball.css" rel="stylesheet"/>
+</head>
+<body>
 
+  <!-- Navigation -->
+  <div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="#about">About</a>
+    <a href="#why-i-love-it">Why I Love It</a>
+    <a href="#positions">Positions</a>
+    <a href="#watch">Watch</a>
+    <a href="#stats">Stats</a>
+    <a href="snake.html">Snake Game</a>
+  </div>
+
+  <!-- Header -->
+  <div id="header">
+    <h1>Volleyball</h1>
+    <p>My favorite sport and why I love it</p>
+    <!-- On-page anchor link -->
+    <a href="#about" id="scroll-down">↓ Learn More</a>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="section">
+    <h2>About Volleyball</h2>
+    <p>
+      Volleyball is a team sport played by two teams of six players on a court
+      divided by a net. The goal is to send the ball over the net and ground it
+      on the other team's side. I've been playing since middle school and it's
+      been one of the biggest parts of my life ever since.
+    </p>
+    <img src="images/volleyball.jpg" alt="Volleyball game" class="vb-image"/>
+  </div>
+
+  <!-- Why I Love It -->
+  <div id="why-i-love-it" class="section">
+    <h2>Why I Love Volleyball</h2>
+    <p>There are so many reasons I love this sport. Here are my top ones:</p>
+
+    <!-- Ordered list with nested unordered lists -->
+    <ol>
+      <li>
+        Teamwork
+        <ul>
+          <li>Every point requires all 6 players working together</li>
+          <li>Communication is key — you have to talk constantly</li>
+          <li>You build really close friendships with your teammates</li>
+        </ul>
+      </li>
+      <li>
+        Competition
+        <ul>
+          <li>Every game is different and exciting</li>
+          <li>Playing in tournaments pushes you to get better</li>
+        </ul>
+      </li>
+      <li>
+        Physical fitness
+        <ul>
+          <li>Great cardio workout</li>
+          <li>Builds leg strength from all the jumping</li>
+          <li>Improves hand-eye coordination</li>
+        </ul>
+      </li>
+      <li>
+        It's fast-paced
+        <ul>
+          <li>Rallies can go on forever</li>
+          <li>No clock — you play until someone wins the set</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <!-- Positions Section -->
+  <div id="positions" class="section">
+    <h2>Positions on the Court</h2>
+    <p>Volleyball has six positions, each with a different role:</p>
+
+    <div id="positions-grid">
+
+      <div class="position-card">
+        <h3>Setter</h3>
+        <p>The playmaker. Sets the ball for hitters and controls the offense.</p>
+      </div>
+
+      <div class="position-card">
+        <h3>Outside Hitter</h3>
+        <p>The main attacker on the left side. Usually the team's top scorer.</p>
+      </div>
+
+      <div class="position-card">
+        <h3>Opposite Hitter</h3>
+        <p>Attacks from the right side and often blocks the opposing outside hitter.</p>
+      </div>
+
+      <div class="position-card">
+        <h3>Middle Blocker</h3>
+        <p>The tallest player. Leads the blocking and hits quick sets in the middle.</p>
+      </div>
+
+      <div class="position-card">
+        <h3>Libero</h3>
+        <p>The defensive specialist. Wears a different color jersey and can't attack.</p>
+      </div>
+
+      <div class="position-card">
+        <h3>Defensive Specialist</h3>
+        <p>Substitutes in for back-row players to strengthen the defense.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- YouTube Video -->
+  <div id="watch" class="section">
+    <h2>Watch Volleyball</h2>
+    <p>One of the most exciting volleyball rallies you'll ever see:</p>
+    <div id="video-wrapper">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/u5jPGtYQDBU"
+        title="Volleyball highlight video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Tableau Embed -->
+  <div id="stats" class="section">
+    <h2>Volleyball Stats</h2>
+    <p>Here is an interactive Tableau visualization related to volleyball and sports data:</p>
+    <div id="tableau-wrapper">
+      <div class='tableauPlaceholder' style='position: relative'>
+        <noscript>
+          <a href='#'>
+            <img alt='Viz' src='https://public.tableau.com/static/images/Wo/WorldCupVolleyball/Sheet1/1_rss.png' style='border: none'/>
+          </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='WorldCupVolleyball/Sheet1' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+        </object>
+      </div>
+      <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+      <script type='text/javascript'>
+        var divElement = document.querySelector('.tableauPlaceholder');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = '500px';
+      </script>
+    </div>
+    <p style="font-size: 0.85em; color: #777; margin-top: 8px;">
+      Note: Tableau embeds only work when the page is hosted online — not when opened locally as a file.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <p>Alex Castillo &nbsp;·&nbsp; IS 201 Final Project</p>
+    <p>
+      <a href="index.html">Back to Home</a> &nbsp;|&nbsp;
+      <a href="snake.html">Play Snake Game</a>
+    </p>
+  </div>
+
+</body>
+</html>
