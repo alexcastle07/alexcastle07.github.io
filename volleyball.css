@@ -1,1 +1,174 @@
+/* volleyball.css — from-scratch stylesheet for volleyball page */
 
+/* ── 1. Body & background ── */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Georgia', serif;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── 2. Navbar ── */
+#navbar {
+  background-color: #1a3a5c;
+  padding: 12px 24px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  color: #f0c040;
+}
+
+/* ── 3. Header div ── */
+#header {
+  background-color: #1a3a5c;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+#header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-family: Georgia, serif;
+}
+
+#header p {
+  font-size: 1.1em;
+  color: #cce0ff;
+}
+
+#scroll-down {
+  display: inline-block;
+  margin-top: 20px;
+  color: #f0c040;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+#scroll-down:hover {
+  color: #ffffff;
+}
+
+/* ── 4. General section div ── */
+.section {
+  max-width: 860px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 32px 40px;
+  border: 1px solid #dce3ea;
+}
+
+.section h2 {
+  font-family: Georgia, serif;
+  font-size: 1.6em;
+  color: #1a3a5c;
+  border-bottom: 2px solid #1a3a5c;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+/* ── 5. Font color for lists ── */
+ol, ul {
+  color: #444444;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+}
+
+ol li {
+  font-weight: bold;
+  color: #1a3a5c;
+  margin-top: 10px;
+}
+
+ol li ul li {
+  font-weight: normal;
+  color: #444444;
+}
+
+/* ── 6. Image ── */
+.vb-image {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 6px;
+  border: 2px solid #dce3ea;
+}
+
+/* ── 7. Positions grid div ── */
+#positions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.position-card {
+  background-color: #eef3f9;
+  border: 1px solid #c5d4e8;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.position-card h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color: #1a3a5c;
+  margin: 0 0 6px;
+}
+
+.position-card p {
+  font-size: 0.88em;
+  color: #555555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ── 8. Video wrapper div ── */
+#video-wrapper {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#video-wrapper iframe {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* ── 9. Tableau wrapper div ── */
+#tableau-wrapper {
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+/* ── 10. Footer div ── */
+#footer {
+  background-color: #1a3a5c;
+  color: #cce0ff;
+  text-align: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+#footer a {
+  color: #f0c040;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
